@@ -1,0 +1,71 @@
+.bodyy {
+    background: cadetblue;
+}
+
+.natanji {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.heymate {
+    position: relative;
+}
+
+.mateSDIV {
+    position: absolute;
+    justify-content: flex-start;
+    margin-top: 30px;
+}
+
+#mate {
+    color: rebeccapurple;
+display: flex;
+justify-content: flex-end;
+    font-size: 330px;
+    animation-name: mate;
+    animation-iteration-count: infinite;
+    animation-duration: 19s;
+    animation-delay: 3s;
+    font-size: 60px;
+    position: relative;
+    animation-direction: alternate;
+}
+
+@keyframes mate {
+  0%{   
+    right: 50px; transform: rotate(0deg);bottom: 0px;
+  }
+  5%{
+    top: 100px; right: 0px;right: 50px;bottom: 0px;
+  }
+  7%{
+    left: 130px; transform: rotate(20px);bottom: 0px;
+  }
+10%{
+    top: 200px; transform: rotate(30deg);
+}
+12%{
+    left: -160px;
+}
+14%{
+    transform: rotate(0deg);top: 100px;
+}
+15%{
+    top: 300px;
+}
+16%{
+    top:0px; transform: rotate(0deg);
+    
+}
+18%{
+     top: 100px;
+}
+20%{
+    right: 100px;
+}
+
+
+
+
+}

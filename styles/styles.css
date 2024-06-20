@@ -207,6 +207,9 @@
     transition-duration: 4s;
     transition: 5s;
 }
+.abouTUS :active:hover:visited:link{
+    color: brown;
+}
 
 @keyframes aboUt {
     10% {
@@ -292,6 +295,10 @@
     transition: 3s;
     transform: rotate(3deg);
 
+}
+.daklike ::selection{
+    color: red;
+    background-color: yellow;
 }
 
 @keyframes lk {
@@ -500,6 +507,9 @@
 
 /* fishes gverdi */
 .bodyyy {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-image: url("https://img.freepik.com/free-vector/sea-wallpaper-video-conferencing_23-2148631821.jpg?w=740&t=st=1718047354~exp=1718047954~hmac=537a0eb58b7efb3aa2d83d26da787689343c2a58921290ba91df36f32a30d595");
 }
 

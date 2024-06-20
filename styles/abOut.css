@@ -1,4 +1,4 @@
-.divvabOuTN1 {
+.divvabOuTN1{
     width: 7%;
     height: 70rem;
     float: left;
@@ -291,8 +291,8 @@
 .contactBigDIv {
     display: flex;
     justify-content: center;
-    /* width: 700px;
-    height: 500px; */
+    width: 740px;
+    height: 500px;
     border: dotted;
     animation-name: backgrpoundN1;
     animation-delay: 3s;

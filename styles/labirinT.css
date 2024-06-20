@@ -34,7 +34,7 @@ justify-content: flex-end;
 
 @keyframes mate {
   0%{   
-    right: 50px; transform: rotate(0deg);bottom: 0px;
+    right: 50px; transform: rotate(0deg);
   }
   5%{
     top: 100px; right: 0px;right: 50px;bottom: 0px;

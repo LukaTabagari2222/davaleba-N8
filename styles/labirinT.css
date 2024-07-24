@@ -1,71 +1,123 @@
-.bodyy {
-    background: cadetblue;
-}
 
-.natanji {
+.contntent-center{
+    position: absolute;
+    margin-top: 100px;
+    background-color: rgb(97, 97, 97);
+    transition: 3s;
+
+   }
+   .contntent-center:hover{
+    background-color: blueviolet;
+    transition: 3s;
+   }
+   .anGRy-fishN1{
+    width: 100px;
+    position: relative;
+    animation-name: firstaangRy;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    top: 270px;
+}
+.angri-fishN2{
+    width: 100px;
+    transform: rotate(170deg);
+    position: relative;
+    left: 380px;
+    animation-name: secondFIshAngry;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes secondFIshAngry{
+    from{
+      left: 35vh;
+    }
+    to{
+        transform: rotate(10deg);
+     }
+}
+@keyframes firstaangRy{
+   from{
+    left: 20vh;
+   }
+   to{
+    transform: rotate(360deg);
+   }
+}
+   .labirint-div{
+     margin: auto;
+    background-size: cover;
+    width: 700px;
+    height: 700px;
+    background-image: url('../images/download.svg');
+    position: relative;
+    background-repeat: no-repeat;
+
+
+}
+.section-hard{
     display: flex;
     justify-content: center;
-    margin-top: 100px;
 }
 
-.heymate {
-    position: relative;
-}
 
-.mateSDIV {
-    position: absolute;
-    justify-content: flex-start;
-    margin-top: 30px;
-}
-
-#mate {
-    color: rebeccapurple;
-display: flex;
-justify-content: flex-end;
-    font-size: 330px;
-    animation-name: mate;
+   .fish{
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image:url('../images/fish\ \(1\).svg');
+    animation-name: movefish ;
+    animation-duration: 10s;
+    position:absolute;    
+    bottom: 100px;
     animation-iteration-count: infinite;
-    animation-duration: 19s;
-    animation-delay: 3s;
-    font-size: 60px;
-    position: relative;
-    animation-direction: alternate;
+
 }
 
-@keyframes mate {
-  0%{   
-    right: 50px; transform: rotate(0deg);
-  }
-  5%{
-    top: 100px; right: 0px;right: 50px;bottom: 0px;
-  }
-  7%{
-    left: 130px; transform: rotate(20px);bottom: 0px;
-  }
-10%{
-    top: 200px; transform: rotate(30deg);
+@keyframes movefish {
+    0% { bottom: 105px; left: -10px; transform: rotate(0deg); }
+    3% { transform: rotate(0deg); }
+    5% { bottom: 105px; left: 30px; transform: rotate(90deg); }
+    8% { transform: rotate(90deg); }
+    10% { bottom: 30px; left: 30px; transform: rotate(0deg); }
+    13% { transform: rotate(0deg); }
+    15% { bottom: 30px; left: 105px; transform: rotate(-90deg); }
+    20% { transform: rotate(-90deg); }
+    22% { bottom: 180px; left: 105px; transform: rotate(0deg); }
+    27% { transform: rotate(0deg); }
+    29% { bottom: 180px; left: 260px; transform: rotate(-90deg); }
+    32% { transform: rotate(-90deg); }
+    34% { bottom: 260px; left: 260px; transform: rotate(-180deg); }
+    38% { transform: rotate(-180deg); }
+    40% { bottom: 260px; left: 105px; transform: rotate(-90deg); }
+    43% { transform: rotate(-90deg); }
+    45% { bottom: 340px; left: 105px; transform: rotate(0deg); }
+    47% { transform: rotate(0deg); }
+    49% { bottom: 340px; left: 180px; transform: rotate(-90deg); }
+    51% { transform: rotate(-90deg); }
+    53% { bottom: 420px; left: 180px; transform: rotate(0deg); }
+    55% { transform: rotate(0deg); }
+    57% { bottom: 420px; left: 260px; transform: rotate(90deg); }
+    59% { transform: rotate(90deg); }
+    61% { bottom: 340px; left: 260px; transform: rotate(0deg); }
+    63% { transform: rotate(0deg); }
+    65% { bottom: 340px; left: 420px; transform: rotate(90deg); }
+    68% { transform: rotate(90deg); }
+    70% { bottom: 180px; left: 420px; transform: rotate(0deg); }
+    72% { transform: rotate(0deg); }
+    74% { bottom: 180px; left: 500px; transform: rotate(90deg); }
+    76% { transform: rotate(90deg); }
+    78% { bottom: 105px; left: 500px; transform: rotate(0deg); }
+    80% { transform: rotate(0deg); }
+    82% { bottom: 105px; left: 580px; transform: rotate(-90deg); }
+    88% { transform: rotate(-90deg); }
+    90% { bottom: 420px; left: 580px; transform: rotate(-180deg); }
+    92% { transform: rotate(-180deg); }
+    94% { bottom: 420px; left: 500px; transform: rotate(-90deg); }
+    96% { transform: rotate(-90deg); }
+    98% { bottom: 500px; left: 500px; transform: rotate(0deg); }
+    100% { bottom: 500px; left: 600px; }
 }
-12%{
-    left: -160px;
-}
-14%{
-    transform: rotate(0deg);top: 100px;
-}
-15%{
-    top: 300px;
-}
-16%{
-    top:0px; transform: rotate(0deg);
-    
-}
-18%{
-     top: 100px;
-}
-20%{
-    right: 100px;
-}
-
-
-
-
+main{
+    background-color: blue;
 }
